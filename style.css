@@ -19,6 +19,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 button {
@@ -117,6 +118,9 @@ nav ul a {
   position: relative;
   top: 400px;
   margin-top: -400px;
+  /* max-width: 800px; */
+  /* width: 100%; */
+  /* height: auto; */
 }
 
 .primary-btn {
@@ -127,17 +131,22 @@ nav ul a {
   background-color: var(--purple300);
   color: white;
 }
+
+/* About Music Section */
+
 .about-music {
   background-color: #e5e5e5;
   padding-top: 500px;
   display: grid;
-  place-items: center;
+  /* place-items: center; */
   text-align: center;
   gap: 50px;
   padding-bottom: 50px;
+  margin: 0 auto;
 }
 .about-music p{
   max-width: 1200px;
+  /* width: 80%; */
 }
 
 /* Video Section */
@@ -232,24 +241,31 @@ padding: 50px;
     padding-top: 180px;
   }
   .about-music h3 {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
   }
   .about-music p {
-    width: 380px;
+    max-width: 380px;
+    width: 100%;
     font-size: 16px;
   }
   .about-music img {
     max-width: 400px;
+    width: 100%;
   }
   .video-section h3 {
     max-width: 350px;
-    padding-left: 90px;
+    width: 100%;
+    margin: 0 auto;
+    /* padding-left: 90px; */
   }
   .video-section p {
     min-width: 400px;
+    width: 100%;
   }
   iframe {
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 300px;
   }
   .gift-section {
